@@ -23,22 +23,22 @@ p {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.col-md-6 {
+	.col-md-6, .col-md-12 {
 		float: left;
-		width: 33.33%;
+	}
+
+	.col-md-6 {
+		width: 50%;
+	}
+
+	.col-md-12 {
+		width: 100%;
 	}
 }
 
 @media (max-width: 767px) {
-	.col-sm-6, .col-sm-12 {
-		float: left;
-	}
-
-	.col-sm-6 {
-		width: 50%;
-	}
-
 	.col-sm-12 {
+		float: left;
 		width: 100%;
 	}
 }
