@@ -1,0 +1,77 @@
+body {
+	font-size: 16px;
+	font-family: 'Oxygen', sans-serif;
+	color: #000;
+	background-color: #E7E7E7;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #5dacba;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 10px;
+}
+
+.navbar-brand h1 {
+	color: #000;
+	font-size: 1.75em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+
+#heading {
+	font-size: 2em;
+}
+
+.menu-item {
+	margin-top: 20px;
+	background-color: #aaa;
+	border: 2px solid #000;
+	height: 1000px;
+}
+
+#main-content .menu-title {
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/* Extra Small Devices only */
+@media (max-width: 767px) {
+	.navbar-brand h1 { /* Food, LLC */
+		padding-top: 1px;
+		font-size: 4vw;
+	}
+
+	#collapsable-nav a {
+		font-size: 1.2em;
+	}
+
+	.navbar-collapse {
+		background-color: #aaa;
+	}
+}
